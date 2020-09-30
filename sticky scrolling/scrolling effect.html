@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>scrolling pages</title>
+    <link type="image/gif" rel="icon" href="c1.jfif" sizes="16x16">
+    
+
+    <style>
+    body{
+    margin:0;
+    padding:0;
+    
+}
+
+.container
+{
+    width:100%;
+    position: relative;
+}
+
+.container .section
+{
+    position: sticky;
+    top:0;
+    height: 100vh;
+    width: 100%;
+    background: #000;
+}
+
+.container .section:nth-child(1)
+{
+    background:url(c2.jpg);
+    background-size:cover;
+}
+
+.container .section:nth-child(2)
+{
+    background:url(c1.jfif);
+    background-size:cover;
+}
+
+.container .section:nth-child(3)
+{
+    background:url(c3.jfif);
+    background-size:cover;
+}
+
+.container .section:nth-child(4)
+{
+    background:url(cool.jpeg);
+    background-size:cover;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section"></div>
+        <div class="section"></div>
+        <div class="section"></div>
+        <div class="section"></div>
+    </div>
+</body>
+</html>
