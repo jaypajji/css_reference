@@ -1,0 +1,44 @@
+  body{
+    margin:0;
+    padding:0;
+    
+}
+
+.container
+{
+    width:100%;
+    position: relative;
+}
+
+.container .section
+{
+    position: sticky;
+    top:0;
+    height: 100vh;
+    width: 100%;
+    background: #000;
+}
+
+.container .section:nth-child(1)
+{
+    background:url(c2.jpg);
+    background-size:cover;
+}
+
+.container .section:nth-child(2)
+{
+    background:url(c1.jfif);
+    background-size:cover;
+}
+
+.container .section:nth-child(3)
+{
+    background:url(c3.jfif);
+    background-size:cover;
+}
+
+.container .section:nth-child(4)
+{
+    background:url(cool.jpeg);
+    background-size:cover;
+}
