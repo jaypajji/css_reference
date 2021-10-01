@@ -19,7 +19,7 @@ body{
 
 }
 
-@keyframes myanimation
+ @keyframes myanimation
 {
     0%{background-color: white; left:0px; top:0px; border-radius:0 0 0 0;} /*start of animation*/
     25%{background-color: red;left:300px; top:0px;border-radius:50% 0 0 0;}/*25% of 4sec of animation*/
@@ -27,4 +27,7 @@ body{
     75%{background-color: blue ; left:0px;top:300px;border-radius:50% 50% 50% 0;} /* of animation*/
 
     100%{background-color: white;left:0px;top:0px;border-radius:50% 50% 50% 50%;}/*end of animation*/
-}
+} 
+
+
+
